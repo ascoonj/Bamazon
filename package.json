@@ -1,0 +1,24 @@
+{
+  "name": "bamazon",
+  "version": "1.0.0",
+  "description": "A Node-Sql Inventory app allowing for user purchases, auto-update of inventory, and maunal update of products via the command line",
+  "main": "bamazonCustomer.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ascoonj/Bamazon.git"
+  },
+  "author": "Ayanna Scoon-Jerome",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ascoonj/Bamazon/issues"
+  },
+  "homepage": "https://github.com/ascoonj/Bamazon#readme",
+  "dependencies": {
+    "console.table": "^0.10.0",
+    "inquirer": "^5.0.1",
+    "mysql": "^2.15.0"
+  }
+}
