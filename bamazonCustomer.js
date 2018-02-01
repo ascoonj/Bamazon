@@ -169,7 +169,7 @@ function getCustOrder(data) {
         console.log("**********************************************************");
         console.log("\n");
         console.log("------------------ Your Order Summary ------------------------");   
-        console.log("You order of", unitsRequested, productName + "s at a price of $" + productPrice, " each is complete.");
+        console.log("You order of", unitsRequested, productName + "s at a price of $" + productPrice, "each is complete.");
         console.log("              You were charged $" + (unitsRequested * productPrice) + ".");
         console.log("         Bamazon thanks you for your business!"); 
         console.log("--------------------------------------------------------------"); 
